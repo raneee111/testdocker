@@ -1,0 +1,7 @@
+sudo: required
+services:
+  - docker
+
+script:
+  - docker build -t raneee111/testdockerproject .
+  - docker images raneee111/testdockerproject
